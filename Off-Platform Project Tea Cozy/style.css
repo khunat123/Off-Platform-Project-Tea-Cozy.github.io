@@ -1,0 +1,163 @@
+html{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+#navbar {
+    display: flex;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0 ;
+    width: 100%;
+    background-color: black;
+    z-index: 9999;
+    opacity: .9;
+}
+
+#navbar img {
+    margin-left: 10px;
+    height: 50px;
+}
+
+#navbar div {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#navbar a {
+    text-decoration: underline;
+    color: seashell;
+    margin-left: 20px;
+}
+
+#container {
+    display: flex;
+}
+
+#mission {
+    position: relative;
+    top: 63px;
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    background: url("./images/background.jpg");
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.mission-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+}
+
+.mission-content h2{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.mission-content h4{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#totm {
+    max-width: 1000px;
+    height: auto;
+    margin: 80px auto;
+}
+
+.img-gallery {  
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-items img {
+    width: 300px;
+    height: 200px;
+    margin: auto 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.gallery-wrapper {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.img-items h4{
+    margin: 0;
+}
+
+#location {
+    width: 1200px;
+    height: 500px;
+    background-image: url("./images/locations.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.wrapper-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location-wrapper {
+    text-align: center;
+    margin: 0;
+}
+
+.container-box {
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+    margin: 15px 20px;
+}
+
+.location-wrapper h2{
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.container-box h4 {
+    font-weight: 400;
+}
+
+#contact {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-wrapper {
+    text-align: center;
+}
+
+footer h5{
+    text-align: left;
+    margin-left: 20px;
+}
